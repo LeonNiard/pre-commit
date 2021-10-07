@@ -6,4 +6,9 @@ repos:
     entry: python
     language: system
     args: [pre_commit_test.py]
-
+  - id: MyTCommitMsg
+    name: Run my commit msg
+    entry: python
+    language: system
+    args: [pre_commit_test.py]
+    stages: [commit-msg]
