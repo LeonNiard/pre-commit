@@ -1,1 +1,1 @@
-print("Commit effectué")
+print("Commit effectue")
