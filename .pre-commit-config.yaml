@@ -12,3 +12,9 @@ repos:
     language: system
     args: [commit_msg.py]
     stages: [commit-msg]
+  - id: MyPostCommit
+    name: Run my post commit
+    entry: python
+    language: system
+    args: [post_commit.py]
+    stages: [post-commit]
