@@ -10,5 +10,5 @@ repos:
     name: Run my commit msg
     entry: python
     language: system
-    args: [pre_commit_test.py]
+    args: [commit_msg.py]
     stages: [commit-msg]
