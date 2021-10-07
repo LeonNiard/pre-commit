@@ -18,3 +18,9 @@ repos:
     language: system
     args: [post_commit.py]
     stages: [post-commit]
+  - id: MyPrePush
+    name: Run my pre push
+    entry: python
+    language: system
+    args: [pre_push.py]
+    stages: [push]
